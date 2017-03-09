@@ -1,8 +1,8 @@
 fish_hybrid_key_bindings
 fish_vi_cursor
 
-set -U editor=vi
-set -U FZF_TMUX 1
+set -g editor vi
+set -g FZF_TMUX 1
 
 # Base16 Shell
 if status --is-interactive
@@ -17,3 +17,5 @@ status --is-interactive; and source (nodenv init -|psub)
 eval (direnv hook fish)
 
 alias vi=nvim
+alias dc=docker-compose
+alias dm=docker-machine
