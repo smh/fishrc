@@ -1,6 +1,7 @@
 fish_hybrid_key_bindings
 fish_vi_cursor
 
+set -U editor=vi
 set -U FZF_TMUX 1
 
 # Base16 Shell
